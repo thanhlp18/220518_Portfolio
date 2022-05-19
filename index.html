@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phuoc-Thanh's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/CSS/main.css">
+    
+  </head>
+  <body>
+    
+    <header class="header">
+        <div class="container py-2">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid app__navbar">
+                  <a class="navbar-brand fw-bold fs-3 app__navbarLogo" href="#">
+                       <!-- Data Insert Here -->
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav fw-bold fs-4 app__navbarItem">
+                        <!-- Data Insert Here -->
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <div class="app__container ">
+      <!-- Home -->
+      <div class="container app__section flex-column d-flex"  id="app__home">
+        <div class="container-fluid d-flex flex-column app__intro-wrap row">
+          <div class="app__intro" id="app__home-intro">
+            <!-- Data insert from data.js -->
+          </div>
+          <button type="button" class="btn-lg fs-2 mt-5 fw-bold app__btn">Get My Resume</button>
+        </div>
+        <div class="align-self-center align-items-center mb-2 d-flex flex-column">
+          <span class="fw-bold fs-6">SCROLL DOWN to GET MORE ABOUT ME</span>
+          <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="4em" height="4em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m5 8l7 8l7-8z"/></svg>
+        </div>
+        </div>
+
+        <!-- App Project -->
+      <div class="container app__section flex-column d-flex"  id="app__project">
+        <div class="row container-fluid app__project-control_wrap">
+          <div class="app__heading1 fw-bold">Here is my project</div>
+          <button type="button" class="btn-lg fs-2 mt-2 mb-4 fw-bold app__btn active">Newest</button>
+        </div>
+          <div class="row d-flex flex-wrap align-items-start app__project-wrap" data-toggle="modal" data-target="#lightbox">
+            <div class="col-12 col-md-6 col-lg-3">
+            <!-- Data insert from data.js -->
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+            <!-- Data insert from data.js -->
+              </div>
+            <div class="col-12 col-md-6 col-lg-3">
+            <!-- Data insert from data.js -->
+              </div>
+            <div class="col-12 col-md-6 col-lg-3">
+            <!-- Data insert from data.js -->
+              </div>
+        </div>
+      </div>
+
+      <!-- Activities -->
+      <div class="container app__section flex-column d-flex flex-fill align-items-center"  id="app__activities">
+        <div class="app__heading1 fw-bold">My Volunteer Activities</div>  
+        <!-- Timeline -->
+          <div class="row">
+            <div class="col-lg-7 mx-auto">
+          <ul class="timeline">
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                <div class="timeline-arrow"></div>
+                <h2 class="h5 mb-0">Title of section 1</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>21 March, 2019</span>
+                <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+            </li>
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                <div class="timeline-arrow"></div>
+                <h2 class="h5 mb-0">Title of section 2</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>5 April, 2019</span>
+                <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper.</p>
+                <p class="text-small mt-2 font-weight-light">Libero expedita explicabo eius fugiat quia aspernatur autem laudantium error architecto recusandae natus sapiente sit nam eaque, consectetur porro molestiae ipsam! Deleniti.</p>
+            </li>
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                <div class="timeline-arrow"></div>
+                <h2 class="h5 mb-0">Title of section 3</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>18 August, 2019</span>
+                <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+            </li>
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                <div class="timeline-arrow"></div>
+                <h2 class="h5 mb-0">Title of section 4</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>10 October, 2019</span>
+                <p class="text-small mt-2 font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                <p class="text-small mt-2 font-weight-light">Voluptatibus temporibus esse illum eum aspernatur, fugiat suscipit natus! Eum corporis illum nihil officiis tempore. Excepturi illo natus libero sit doloremque, laborum molestias rerum pariatur quam ipsam necessitatibus incidunt, explicabo.</p>
+            </li>
+          </ul>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./assets/JS/data.js"></script>
+    <script src="./assets/JS/main.js"></script>
+  </body>
+</html>

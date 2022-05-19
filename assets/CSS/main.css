@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+
+:root {
+    --header-height: 52.5px;
+    --primary-color: #FDB813;
+    --background-color: #F4F3EE;
+    --text-color: #1A1200;
+    --primary-border-properties: solid 2px #FDB813;
+    --second-border-properties: solid 2px #1A1200;
+    --border-radius-properties: 1rem;
+    --main-shadow-properties: 0 0 30px 1 rgba(0,0,0,0.15);
+    --second-shadow-properties: 0 4px 4px 0 rgba(0,0,0,0.25);
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.app__container {
+    padding-top: calc(2*var(--header-height));
+    position: relative;
+    /* top: var(--header-height); */
+    background-color: var(--primary-color);
+}
+
+.app__section:not(#app__home) {
+    min-height: 100vh;
+    max-height: fit-content; 
+    margin-top: calc(2*var(--header-height));
+}
+
+.app__btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 1.6rem;
+    border-radius: var(--border-radius-properties);
+}
+
+.app__btn.active {
+   background-color: var(--primary-color);
+}
+
+.app__heading1 {
+    margin: 0 -1rem;
+    font-size: 5rem;
+}
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    min-height: var(--header-height);
+    background-color: var(--primary-color);
+    box-shadow: var(--second-shadow-properties);
+}
+
+/* Home */
+
+.app__intro-wrap {
+   /* height: 100%; */
+   margin: auto;
+   padding-bottom: var(--header-height);
+   justify-content: center;
+   padding-top: calc(var(--header-height));
+}
+
+.app__intro {
+    border: var(--second-border-properties);
+    border-radius: var(--border-radius-properties);
+    background-color: var(--background-color);
+    padding: 1.6rem;
+    font-size: 5rem;
+}
+
+/* Project Showcase */
+
+#app__project  {
+    width: 100%;
+    background-color: var(--background-color);
+    border: var(--second-border-properties);
+    border-radius: var(--border-radius-properties);
+
+}
+
+#app__project > .row {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.app__project-control_wrap {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.col-12 img {
+    margin: 1rem 0;
+    cursor: pointer;
+    width: 100%;
+    border: var(--second-border-properties);
+    border-radius: var(--border-radius-properties);
+}
+  
+.col-12 img:hover {
+    border: var(--second-border-properties);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* App Activities */
+#app__activities {
+    
+}
+/* Timeline holder */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: #ddd;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
