@@ -181,7 +181,3 @@ li.timeline-item::before {
 .app__project-wrap {
     padding-bottom: 2rem;
 }
-
-strong {
-    display: block !important;
-}
