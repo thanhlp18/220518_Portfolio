@@ -79,7 +79,7 @@
     border-radius: var(--border-radius-properties);
     background-color: var(--background-color);
     padding: 1.6rem;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 /* Project Showcase */
@@ -92,10 +92,6 @@
 
 }
 
-#app__project > .row {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
 
 .app__project-control_wrap {
     padding-top: 2rem;
@@ -182,6 +178,6 @@ li.timeline-item::before {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* #modal > img {
-    padding: 10rem;
-} */
+.app__project-wrap {
+    padding-bottom: 2rem;
+}

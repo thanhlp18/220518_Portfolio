@@ -18,6 +18,8 @@ headerData.navbarItems.forEach((data, index) => {
     var  elementNode = document.createElement("a");
     elementNode.innerText = data
     elementNode.classList.add("nav-link", "ps-4")
+    elementNode.setAttribute("href",`#app__${data}`)
+    elementNode.setAttribute("style","text-transform: capitalize")
     navbarItem.appendChild(elementNode)
 })
 navbarLogo.innerHTML = `${headerData.navbarLogo}`

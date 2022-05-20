@@ -37,35 +37,43 @@
           <div class="app__intro" id="app__home-intro">
             <!-- Data insert from data.js -->
           </div>
-          <button type="button" class="btn-lg fs-2 mt-5 fw-bold app__btn">Get My Resume</button>
+          <a href="https://drive.google.com/file/d/111aSVifcm57h_1addx3IEv19CWBR0cAU/view?usp=sharing" target="_blank"><button type="button" class="btn-lg fs-2 mt-5 fw-bold app__btn">Get My Resume</button></a>
         </div>
         <div class="align-self-center align-items-center mb-2 d-flex flex-column">
-          <span class="fw-bold fs-6">SCROLL DOWN to GET MORE ABOUT ME</span>
+          <span class="fw-bold fs-6">SCROLL DOWN to GET MY PROJECTS</span>
           <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="4em" height="4em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m5 8l7 8l7-8z"/></svg>
         </div>
         </div>
 
-        <!-- App Project -->
-      <div class="container app__section flex-column d-flex"  id="app__project">
-        <div class="row container-fluid app__project-control_wrap">
-          <div class="app__heading1 fw-bold">Here is my project</div>
+        <!-- Project -->
+      <div class="container app__section flex-column align-items-center d-flex"  id="app__project">
+        <div class="row container-fluid app__project-control_wrap d-flex align-items-center flex-column">
+          <div class="app__heading1 fw-bold text-center">Here is my design</div>
           <button type="button" class="btn-lg fs-2 mt-2 mb-4 fw-bold app__btn active">Newest</button>
         </div>
-          <div class="row d-flex flex-wrap align-items-start app__project-wrap" data-toggle="modal" data-target="#lightbox">
+        <div class="row d-flex flex-wrap container-fluid align-items-start app__project-wrap">
+          <div class="col-12  col-lg-4">
+          <!-- Data insert from data.js -->
+            </div>
             <div class="col-12  col-lg-4">
-            <!-- Data insert from data.js -->
-              </div>
-              <div class="col-12  col-lg-4">
-            <!-- Data insert from data.js -->
-              </div>
-            <div class="col-12  col-lg-4">
-            <!-- Data insert from data.js -->
-              </div>
-            <div class="col-12  col-lg-4">
-            <!-- Data insert from data.js -->
-              </div>
+          <!-- Data insert from data.js -->
+            </div>
+          <div class="col-12  col-lg-4">
+          <!-- Data insert from data.js -->
+            </div>
         </div>
-      </div>
+        </div>
+        
+        <!-- Home -->
+        <div class="container app__section flex-column d-flex"  id="app__footer">
+        <div class="container-fluid d-flex flex-column app__intro-wrap row">
+          <div class="app__intro" id="app__home-intro" style="overflow: hidden;">
+            Please contact me if there are any problems: <a href="mailto:thanhlp18@gmail.com" style="text-decoration: none; color: black;"><strong >thanhlp18@gmail.com</strong></a>
+          </div>
+          <a href="mailto:thanhlp18@gmail.com" class="ps-0" style="text-decoration: none; color: black;"><button type="button" class="btn-lg fs-2 mt-5 fw-bold app__btn">OK!!!</button></a>
+        </div>
+        </div>
+
 
       <div id="modal" class="row px-4 py-4" onclick="hideImages()"></div>
 </div>
