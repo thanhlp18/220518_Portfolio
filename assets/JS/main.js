@@ -5,7 +5,7 @@ const $$ = document.querySelectorAll.bind(document);
 // Function Common
 function appendImageElement(parentElement, data) {
     var tempNode = document.createElement("span")
-    tempNode.innerHTML = `<img src="${data}" data-target="#indicators" data-slide-to="0" alt="" /> `
+    tempNode.innerHTML = `<img src="${data}"  alt="" /> `
     parentElement.appendChild(tempNode)
 }
 
@@ -34,7 +34,6 @@ const project = $('#app__project > .app__project-wrap').children
 var projectIndex = 0
 
 projectImagesData.forEach((data, index) => {
-    console.log(data) 
     if(projectIndex < project.length) {
         appendImageElement(project[projectIndex], data.src)
         projectIndex++
@@ -44,3 +43,29 @@ projectImagesData.forEach((data, index) => {
         projectIndex++
     }
 })
+
+
+
+const Projects = $$('#app__project > .app__project-wrap img')
+// Show project Iamge
+function hideImages() {
+    $('#modal').style.display = 'none'
+}
+
+
+Projects.forEach((data, index)=> {
+    Projects[index].addEventListener('click', (e)=> {
+        if(window.screen.width > "1024") {
+            $('#modal').style.display = 'flex'
+            console.log(e.path[0].getAttribute('src'))
+            showIamges(e.path[0].getAttribute('src'))
+
+        }
+    })  
+})
+
+function showIamges(src) {
+    $('#modal').innerHTML = `
+    <img src="${src}" class="col-8" alt="" /> 
+    `
+}
