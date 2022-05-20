@@ -15,6 +15,18 @@ const introTextData = "<strong>Brilliant</strong> and  <strong>creative</strong>
 // Project Image
 const projectImagesData = [
     {
+        id: "ibs16",
+        name: "IBShow 2022 Tuyển Thành Viên",
+        tag: "IBShow",
+        src: "./assets/images/image17.png"
+    },
+    {
+        id: "ibs15",
+        name: "IBShow 2022 Tuyển Thành Viên",
+        tag: "IBShow",
+        src: "./assets/images/image16.png"
+    },
+    {
         id: "ibs01",
         name: "IBShow 2022 Tuyển Thành Viên",
         tag: "IBShow",
@@ -27,16 +39,16 @@ const projectImagesData = [
         src: "./assets/images/image3.png"
     },
     {
+        id: "ibs10",
+        name: "IBShow Đại Sứ Truyền Thông",
+        tag: "IBShow",
+        src: "./assets/images/image11.png"
+    },
+    {
         id: "ibs03",
         name: "IBShow 2022 Give Away",
         tag: "IBShow",
         src: "./assets/images/image4.png"
-    },
-    {
-        id: "ibs04",
-        name: "IBShow 2022 Giới Thiệu Diễn Giả IB Talk Show",
-        tag: "IBShow",
-        src: "./assets/images/image5.png"
     },
     {
         id: "ibs05",
@@ -63,16 +75,16 @@ const projectImagesData = [
         src: "./assets/images/image9.png"
     },
     {
+        id: "ibs04",
+        name: "IBShow 2022 Giới Thiệu Diễn Giả IB Talk Show",
+        tag: "IBShow",
+        src: "./assets/images/image5.png"
+    },
+    {
         id: "ibs09",
         name: "IBShow 2022 Kết Quả Phỏng Vấn",
         tag: "IBShow",
         src: "./assets/images/image10.png"
-    },
-    {
-        id: "ibs10",
-        name: "IBShow Đại Sứ Truyền Thông",
-        tag: "IBShow",
-        src: "./assets/images/image11.png"
     },
     {
         id: "ibs11",
@@ -80,29 +92,30 @@ const projectImagesData = [
         tag: "IBShow",
         src: "./assets/images/image12.png"
     },
-    {
-        id: "ibs12",
-        name: "IBShow Vững Niềm Tin",
-        tag: "IBShow",
-        src: "./assets/images/image13.png"
-    },
+    // {
+    //     id: "ibs12",
+    //     name: "IBShow Vững Niềm Tin",
+    //     tag: "IBShow",
+    //     src: "./assets/images/image13.png"
+    // },
     {
         id: "tie3",
         name: "Trải Chiếu Nói Chuyện cùng chú Hoàng Việt",
         tag: "Chuyện dễ nói",
         src: "./assets/images/image14.png"
     },
-    {
-        id: "tie4",
-        name: "Trải Chiếu Nói Chuyện cùng cô Lê Na",
-        tag: "Chuyện dễ nói",
-        src: "./assets/images/image15.png"
-    },
+    
     {    
         id: "tie01",
         name: "BMP Standee",
         tag: "Chuyện dễ nói",
         src: "./assets/images/image0.png"
+    },
+    {
+        id: "tie4",
+        name: "Trải Chiếu Nói Chuyện cùng cô Lê Na",
+        tag: "Chuyện dễ nói",
+        src: "./assets/images/image15.png"
     },
     {
         id: "tie02",
