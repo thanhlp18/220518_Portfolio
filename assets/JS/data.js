@@ -9,7 +9,7 @@ const headerData = {
 
 // Introduce text
 // const introTextData = "I’m a designer specialising in <strong>Graphic Design</strong> and <strong>Front-end Web Design</strong>"
-const introTextData = "<strong>Brilliant</strong> and  <strong>creative</strong> Junior IT Student, passionate about creating relevant and friendly visuals. A giving and supportive person who believes in Newton's Third Law."
+const introTextData = "<strong>Brilliant</strong> and  <strong>creative</strong> Junior IT Student at Can Tho Univesity, passionate about creating relevant and friendly visuals. A giving and supportive person who believes in Newton's Third Law."
 
 
 // Project Image
