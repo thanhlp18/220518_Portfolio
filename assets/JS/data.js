@@ -15,6 +15,72 @@ const introTextData = "<strong>Brilliant</strong> and  <strong>creative</strong>
 // Project Image
 const projectImagesData = [
     {
+        id: "fme26",
+        name: "FME standee",
+        tag: "FME",
+        src: "./assets/images/fme_social-poster.jpg"
+    },
+    {
+        id: "fme25",
+        name: "FME standee",
+        tag: "FME",
+        src: "./assets/images/fme_standee.jpg"
+    },
+    {
+        id: "fme24",
+        name: "FME event",
+        tag: "FME",
+        src: "./assets/images/fme_event.jpg"
+    },
+    {
+        id: "fme23",
+        name: "FME chrismast cover",
+        tag: "FME",
+        src: "./assets/images/fme_cover.jpg"
+    },
+    {
+        id: "fme22",
+        name: "FME chrismast avatar",
+        tag: "FME",
+        src: "./assets/images/fme_avatar.jpg"
+    },
+    {
+        id: "vh21",
+        name: "VietHope standee",
+        tag: "VietHope",
+        src: "./assets/images/viethope_standee.png"
+    },
+    {
+        id: "vh21",
+        name: "VietHope backdrop",
+        tag: "VietHope",
+        src: "./assets/images/viethope_backdrop.png"
+    },
+    {
+        id: "vh20",
+        name: "VietHope social poster",
+        tag: "VietHope",
+        src: "./assets/images/viethope_list-cover.png"
+    },
+    {
+        id: "vh19",
+        name: "VietHope social poster",
+        tag: "VietHope",
+        src: "./assets/images/viethope_list.png"
+    },
+    {
+        id: "vh18",
+        name: "VietHope social poster",
+        tag: "VietHope",
+        src: "./assets/images/viethope_social-poster-2.png"
+    },
+    {
+        id: "vh17",
+        name: "VietHope social poster",
+        tag: "VietHope",
+        src: "./assets/images/viethope_social-poster-1.png"
+    },
+    {
         id: "ibs16",
         name: "IBShow 2022 Tuyển Thành Viên",
         tag: "IBShow",

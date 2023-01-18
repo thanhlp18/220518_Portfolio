@@ -57,10 +57,11 @@ function hideImages() {
 
 Projects.forEach((data, index)=> {
     Projects[index].addEventListener('click', (e)=> {
+        console.log(e.composedPath()[0])
         if(window.screen.width > "1024") {
             $('#modal').style.display = 'flex'
-            console.log(e.path[0].getAttribute('src'))
-            showIamges(e.path[0].getAttribute('src'))
+            console.log(e.composedPath()[0].getAttribute('src'))
+            showIamges(e.composedPath()[0].getAttribute('src'))
 
         }
     })  
